@@ -1,8 +1,28 @@
-# React + Vite
+# Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is made with:
 
-Currently, two official plugins are available:
+- ReactJS
+- TailwindCSS
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+And libraries such as:
+
+- Framer Motion
+- React Router
+
+## Conventions
+
+|     Type     |                       Meaning                       |
+| :----------: | :-------------------------------------------------: |
+|   **feat**   |                    New features                     |
+|   **fix**    |                      Bug fixes                      |
+|    **!**     |                   Breaking change                   |
+|  **build**   |            Changes in compilation system            |
+|  **chore**   |  Changes that don't affect production environment   |
+|    **ci**    | Changes in the continuous integration configuration |
+|   **docs**   |              Changes in documentation               |
+|   **perf**   |               Updates in performance                |
+| **refactor** |                Refactoring processes                |
+|  **revert**  |            Rollbacks to previous commit             |
+|  **style**   |                  Changes in syntax                  |
+|   **test**   |                  Add or fix tests                   |
