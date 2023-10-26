@@ -1,0 +1,1 @@
+export { default as claro } from './claro.png'
