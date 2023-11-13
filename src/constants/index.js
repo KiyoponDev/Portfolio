@@ -125,6 +125,63 @@ const experience = [
   },
 ];
 
-const projects = [{}];
+const pink = "pink-text-gradient";
+const blue = "blue-text-gradient";
+const brown = "brown-text-gradient";
+const green = "green-text-gradient";
+const red = "red-text-gradient";
+const white = "white-text-gradient";
+
+const projects = [
+  {
+    name: "PokeAPI",
+    description:
+      "API consumptio for sampling data fetched from the PokeAPI, filtered by type, and searchable by name or character",
+    tags: [
+      {
+        name: "React",
+        color: blue,
+      },
+      {
+        name: "Tailwind",
+        color: pink,
+      },
+    ],
+    image: "PokeAPI image",
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Chappy",
+    description: "Real-time chat application whit user authentication",
+    tags: [
+      {
+        name: "React",
+        color: blue,
+      },
+      {
+        name: "Tailwind",
+        color: pink,
+      },
+      {
+        name: "Zustand",
+        color: brown,
+      },
+      {
+        name: "Mongo",
+        color: green,
+      },
+      {
+        name: "Express",
+        color: white,
+      },
+      {
+        name: "Socket",
+        color: red,
+      },
+    ],
+    image: "Chappy image",
+    source_code_link: "https://github.com/"
+  },
+];
 
 export { navLinks, services, technologies, experience, projects };
